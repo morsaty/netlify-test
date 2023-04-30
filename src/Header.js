@@ -4,7 +4,7 @@ import photo from './header-photo.jpg'
 const Header = () => {
 	return (
 		<header>
-			<img src={photo} className="header--photo" />
+			<img src={photo} className="header--photo" alt=''/>
 			<h1 className="header--title">Daniel Kwiatkowski</h1>
 			<p className="header--subtitle">Frontend Developer</p>
 			<p className="header--link">github.com/morsaty</p>
